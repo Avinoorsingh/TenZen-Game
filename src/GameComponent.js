@@ -79,7 +79,7 @@ const GameComponent = () => {
 	}, [timerun, time]);
 
 
-	// Enable Play Again button
+	// Enable Play Again button by clicking here
 	useEffect(() => {
 		if (dice.every((value) => value === dice[0]) && gamestart) {
 			set_game_win(true);
